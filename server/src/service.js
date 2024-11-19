@@ -36,6 +36,4 @@ const getGoogleUser = async (token) => {
   return data;
 };
 
-// step 6 is google server send user info back to nodejs server
-
 export { getGoogleToken, getGoogleUser };
