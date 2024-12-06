@@ -28,3 +28,33 @@
 
 - https://developers.google.com/identity/protocols/oauth2
 - https://developers.google.com/identity/protocols/oauth2/web-server
+
+# Google API
+
+- API key
+- OAuth client ID
+- Service account
+
+## Compare each type
+
+### API Key
+
+- Simple and easy to use.
+- Suitable for accessing public data.
+- Limited security as it can be easily exposed.
+- **Example**: Accessing Google Maps API to display a map on a public website.
+
+### OAuth Client ID
+
+- Provides secure access to user data.
+- Requires user consent and authentication.
+- Suitable for applications that need to access user data on behalf of the user.
+- **Example**: A web application that accesses a user's Google Drive to upload and manage files.
+
+### Service Account
+
+- Used for server-to-server interactions.
+- Does not require user consent.
+- Suitable for applications that need to access data without user interaction.
+- Provides high security with private key authentication.
+- **Example**: A backend service that accesses Google Cloud Storage to manage data without user intervention.
